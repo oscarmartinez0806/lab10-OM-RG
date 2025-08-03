@@ -6,15 +6,15 @@ from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
-     def test_add(self): # 3 assertions
-         self.assertEqual(add(1, 2), 3)
-         self.assertEqual(add(-2, 2), 0)
-         self.assertEqual(add(1, 3), 4)
+    def test_add(self):# 3 assertions
+        self.assertEqual(add(1, 2), 3)
+        self.assertEqual(add(-2, 2), 0)
+        self.assertEqual(add(1, 3), 4)
 
-     def test_subtract(self): # 3 assertions
-         self.assertEqual(subtract(6, 2), 4)
-         self.assertEqual(subtract(9, 4), 5)
-         self.assertEqual(subtract(9, 10), -1)
+    def test_subtract(self): # 3 assertions
+        self.assertEqual(subtract(6, 2), 4)
+        self.assertEqual(subtract(9, 4), 5)
+        self.assertEqual(subtract(9, 10), -1)
     # ##########################
 
     ######## Partner 1

@@ -1,4 +1,6 @@
 #https://github.com/oscarmartinez0806/lab10-OM-RG
+# Partner 1: Oscar Martinez
+# Partner 2: Rithika Guntu
 import unittest
 from calculator import *
 
